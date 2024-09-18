@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
+/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+*.log 
+
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+*.exe
+*.out
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+*.pch
+*.pdb
+*.ilk
+
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.user
+*.suo
+
+any_public_test
+
+*.local
